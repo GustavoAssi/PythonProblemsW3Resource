@@ -1,4 +1,5 @@
 from math import pi
+from utils import Input
 
 
 def sphere_volume():
@@ -9,7 +10,7 @@ def sphere_volume():
 	"""
 
 	# Step 1: Get sphere radius value from user.
-	sphere_radius = float(input("Type the sphere radius: "))
+	sphere_radius = Input.get_float_number("Type the sphere radius: ")
 
 	# Step 2: Calculate sphere volume.
 	sphere_volume = (4/3) * pi * pow(sphere_radius, 3)

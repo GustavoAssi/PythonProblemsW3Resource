@@ -1,3 +1,6 @@
+from utils import Input
+
+
 def prefix_is_string_modifier():
 	"""
 	This program changes a string adding the prefix "Is" in the beginning of the string.
@@ -6,7 +9,7 @@ def prefix_is_string_modifier():
 	"""
 
 	# Step 1: Get a string from user.
-	string = input("Type a string: ")
+	string = Input.get_string("Type a string: ", stripped=True)
 
 	# Step 2: Add the prefix in the string (if necessary).
 	if not string.startswith("Is"):

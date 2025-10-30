@@ -1,3 +1,6 @@
+from utils import Input
+
+
 def list_and_tuple_generator():
 	"""
 	This function take a sequence of comma-separeted values and creates a list and tuple.
@@ -6,7 +9,7 @@ def list_and_tuple_generator():
 	"""
 
 	# Step 1: Get the sequence from user.
-	sequence = input("Type a sequence of values: ")
+	sequence = Input.get_string("Type a sequence of values: ")
 
 	# Step 2: Generate list and tuple with values.
 	values_list = [value.strip() for value in sequence.split(",")]

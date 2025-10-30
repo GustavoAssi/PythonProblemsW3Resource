@@ -1,3 +1,6 @@
+from utils import Input
+
+
 def difference_from_17():
 	"""
 	This program calculates difference between a given number from 17.
@@ -7,7 +10,7 @@ def difference_from_17():
 	"""
 
 	# Step 1: Get a number from user.
-	number = int(input("Type an integer number: "))
+	number = Input.get_integer_number("Type an integer number: ")
 
 	# Step 2: Evaluate the result.
 	result = 2 * abs(number - 17) if number > 17 else number - 17

@@ -1,5 +1,7 @@
 import calendar
 
+from utils import Input
+
 
 months = {
 	"january": 1, 
@@ -25,12 +27,12 @@ def display_calendar():
 	"""
 	
 	# Step 1: Get the year from user.
-	year = int(input("Type the year: "))
+	year = Input.get_integer_number("Type the year: ")
 
 	# Step 2: Get the month from user and display month days.
-	month_name = input("Type the month (january, february, ...): ")
+	month_name = Input.get_string("Type the month (january, february, ...): ", stripped=True)
 	try:
-		month = months[month_name.lower().strip()]
+		month = months[month_name.lower()]
 		text_calendar = calendar.TextCalendar()
 		print(text_calendar.formatmonth(theyear=year, themonth=month))
 	except KeyError:

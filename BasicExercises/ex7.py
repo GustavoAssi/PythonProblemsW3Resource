@@ -1,3 +1,6 @@
+from utils import Input
+
+
 def file_extension_extractor():
 	"""
 	This program display the extension from a file.
@@ -6,7 +9,7 @@ def file_extension_extractor():
 	"""
 
 	# Step 1: Get file name from user. 	
-	file_name = input("Type file name: ")
+	file_name = Input.get_string("Type file name: ")
 
 	# Step 2: Validate the file name (just 1 dot).
 	amount_of_dots = file_name.count(".")

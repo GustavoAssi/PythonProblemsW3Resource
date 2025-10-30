@@ -1,3 +1,6 @@
+from utils import Input
+
+
 def first_and_last_colors():
 	"""
 	This program display the first and the last color from a list of colors.
@@ -6,8 +9,9 @@ def first_and_last_colors():
 	"""
 	
 	# Step 1: Get colors from user.
+	colors = Input.get_string("Input the colors list: ")
 	colors_list = [
-		color.strip() for color in input("Input the colors list: ").split(",")
+		color.strip() for color in colors.split(",")
 	]
 	
 	# Step 2: Get first and last, then display output.

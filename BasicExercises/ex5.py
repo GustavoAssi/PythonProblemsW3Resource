@@ -1,3 +1,6 @@
+from utils import Input
+
+
 def reverse_full_name():
 	"""
 	This function get the first and last name from user and display it in reverse order.
@@ -6,7 +9,7 @@ def reverse_full_name():
 	"""
 
 	# Step 1: Get user's full name separeted.
-	full_name = input("Type your first and last name: ")
+	full_name = Input.get_string("Type your first and last name: ", stripped=True)
 	full_name_list = full_name.split()
 
 	# Step 2: Show the name in reverse order.

@@ -1,4 +1,5 @@
 from math import pi
+from utils import Input
 
 
 def circle_area():
@@ -9,7 +10,7 @@ def circle_area():
 	"""
 	
 	# Step 1: Get from user the radius value.
-	radius = float(input("Radius value: "))
+	radius = Input.get_float_number("Type the radius value: ")
 
 	# Step 2: Compute circle area.
 	circle_area = pi * pow(radius, 2)

@@ -1,3 +1,6 @@
+from utils import Input
+
+
 def function_documentation_printer():
 	"""
 	This program display any function documentation, since the function is Python built-in.
@@ -6,7 +9,7 @@ def function_documentation_printer():
 	"""
 
 	# Step 1: Get the function name from user.
-	function_name = input('Type the function name (press "q" to exit): ')
+	function_name = Input.get_string('Type the function name (press "q" to exit): ', stripped=True)
 
 	while function_name.lower() != "q":
 
