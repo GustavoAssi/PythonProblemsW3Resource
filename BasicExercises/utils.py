@@ -21,7 +21,7 @@ class Input:
 	def get_integer_number(message: str = "Type an integer number: ", must_be_positive: bool = False) -> int:
 		"""
 		This method is used to get integer numbers from user on terminal.
-8
+
 		:param message:            (str) a message displayed on terminal for the user.
 		:param must_be_positive:   (bool) if the number must be positive.
 		:return:                   (int) the integer number inputed by the user.
