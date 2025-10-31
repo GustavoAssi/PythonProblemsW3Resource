@@ -1,7 +1,7 @@
 class Input:
 
 	@staticmethod
-	def get_string(message: str, stripped: bool = False) -> str:
+	def get_string(message: str = "Type a string:", stripped: bool = False) -> str:
 		"""
 		This methods is used to get strings from user on terminal.
 
