@@ -13,7 +13,7 @@ def file_existence_checker():
 
 	# Step 1: Get from user the path from a file.
 	user_home = str(Path.home())
-	user_file = Input.get_string("Type the file path: ")
+	user_file = Input.get_string("Type the file path: ", stripped=True)
 
 
 	# Step 2: Check if file path exists.
