@@ -30,7 +30,7 @@ class Input:
 		while True:
 			try:
 				integer = int(input(f"{message}"))
-				if integer <= 0 and must_be_positive:
+				if integer < 0 and must_be_positive:
 					print("The number must be positive! Try again...")
 					continue
 				return integer
@@ -51,7 +51,7 @@ class Input:
 		while True:
 			try:
 				float_number = float(input(f"{message}"))
-				if float_number <= 0 and must_be_positive:
+				if float_number < 0 and must_be_positive:
 					print("The number must be positive! Try again...")
 					continue
 				return float_number
