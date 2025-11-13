@@ -1,9 +1,9 @@
 from utils import Input
 
 
-def triple_sum_calculator():
+def triple_sum_calculator()-> None:
 	"""
-	This program calculate the sum of three given numbers. 
+	This program calculates the sum of three given numbers. 
 	If the values are equal, return three times their sum.
 	Author: Gustavo Assi Alencar.
 	Date:   29/10/2025.
@@ -21,7 +21,7 @@ def triple_sum_calculator():
 	print(f">>> Sum: {sum}")
 
 
-def main():
+def main() -> None:
 	triple_sum_calculator()
 
 

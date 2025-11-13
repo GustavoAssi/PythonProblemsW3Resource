@@ -1,9 +1,9 @@
 import sys
 
 
-def endianess_checker():
+def endianess_checker() -> None:
 	"""
-	This program est whether the system is a big-endian platform or a little-endian platform.
+	This program tests whether the system is a big-endian platform or a little-endian platform.
 	Author: Gustavo Assi Alencar.
 	Date:   08/11/2025.
 	"""
@@ -15,7 +15,7 @@ def endianess_checker():
 		print("big-endian platform")
 
 
-def main():
+def main() -> None:
 	endianess_checker()
 
 

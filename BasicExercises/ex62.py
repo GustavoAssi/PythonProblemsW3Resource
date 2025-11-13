@@ -1,9 +1,9 @@
 from utils import Input
 
 
-def time_to_seconds_converter():
+def time_to_seconds_converter() -> None:
 	"""
-	This program convert all units of time into seconds.
+	This program converts all units of time into seconds.
 	Author: Gustavo Assi Alencar.
 	Date:   04/11/2025.
 	"""
@@ -21,7 +21,7 @@ def time_to_seconds_converter():
 	print(f">>> Total amount of seconds: {total_seconds}")
 
 
-def main():
+def main() -> None:
 	time_to_seconds_converter()
 
 

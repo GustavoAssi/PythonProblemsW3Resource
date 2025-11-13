@@ -1,9 +1,9 @@
 from utils import Input
 
 
-def print_without_newline():
+def print_without_newline() -> None:
 	"""
-	This program print without a newline or space.
+	This program prints without a newline or space.
 	Author: Gustavo Assi Alencar.
 	Date:   03/11/2025.
 	"""
@@ -16,7 +16,8 @@ def print_without_newline():
 		print('*', end="")
 	print("\n")
 
-def main():
+
+def main() -> None:
 	print_without_newline()
 
 

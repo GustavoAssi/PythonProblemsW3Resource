@@ -1,9 +1,9 @@
 from utils import Input
 
 
-def height_in_centimeters():
+def height_in_centimeters() -> None:
 	"""
-	This program convert height (in feet and inches) to centimeters
+	This program converts height (in feet and inches) to centimeters
 	Author: Gustavo Assi Alencar.
 	Date:   04/11/2025.
 	"""
@@ -20,7 +20,7 @@ def height_in_centimeters():
 	print(f">>> Your height (cm): {height_in_centimeters}")
 
 
-def main():
+def main() -> None:
 	height_in_centimeters()
 
 

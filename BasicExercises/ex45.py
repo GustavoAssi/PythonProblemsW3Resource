@@ -3,7 +3,7 @@ import os
 from utils import Input
 
 
-def external_command_runner():
+def external_command_runner() -> None:
 	"""
 	This program calls an external command.
 	Author: Gustavo Assi Alencar.
@@ -17,7 +17,7 @@ def external_command_runner():
 	os.system(command=command)
 
 
-def main():
+def main() -> None:
 	external_command_runner()
 
 

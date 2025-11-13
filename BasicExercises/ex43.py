@@ -1,9 +1,9 @@
 import platform
 
 
-def os_and_platform_info():
+def os_and_platform_info() -> None:
 	"""
-	This program get the OS name, platform and release information from user's machine.
+	This program gets the OS name, platform and release information from user's machine.
 	Author: Gustavo Assi Alencar.
 	Date:   02/11/2025.
 	"""
@@ -19,7 +19,7 @@ def os_and_platform_info():
 	print(f">>> Release: {release}")
 
 
-def main():
+def main() -> None:
 	os_and_platform_info()
 
 

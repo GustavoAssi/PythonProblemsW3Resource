@@ -1,7 +1,7 @@
 from utils import Input
 
 
-def seconds_to_DHMS_converter():
+def seconds_to_DHMS_converter() -> None:
 	"""
 	This program converts seconds into days, hours, minutes, and seconds.
 	Author: Gustavo Assi Alencar.
@@ -21,7 +21,7 @@ def seconds_to_DHMS_converter():
 	print(f">>> {days} days, {hours} hours, {minutes} minutes, {seconds} seconds")
 
 
-def main():
+def main() -> None:
 	seconds_to_DHMS_converter()
 
 

@@ -3,9 +3,9 @@ import datetime
 from utils import Input
 
 
-def days_between_dates():
+def days_between_dates() -> None:
 	"""
-	This program calculate the difference between two days.
+	This program calculates the difference between two days.
 	Author: Gustavo Assi Alencar.
 	Date: 27/10/2025.
 	"""
@@ -25,7 +25,7 @@ def days_between_dates():
 	print(abs(time_difference))
 
 
-def main():
+def main() -> None:
 	days_between_dates()
 
 

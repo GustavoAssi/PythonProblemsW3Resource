@@ -4,7 +4,7 @@ import os.path, time
 from utils import Input
 
 
-def file_timestamps():
+def file_timestamps() -> None:
 	"""
 	This program retrieves the date and time of file creation and modification.
 	Author: Gustavo Assi Alencar.
@@ -25,7 +25,7 @@ def file_timestamps():
 		print(">>> File does not exist.")
 
 
-def main():
+def main() -> None:
 	file_timestamps()
 
 

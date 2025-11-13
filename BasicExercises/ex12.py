@@ -19,7 +19,7 @@ months = {
 }
 
 
-def display_calendar():
+def display_calendar() -> None:
 	"""
 	This program is able to show a calendar from a given year and month.
 	Author: Gustavo Assi Alencar.
@@ -39,7 +39,7 @@ def display_calendar():
 		print(f'Failed to display month days: "{month_name}" is a invalid input!')
 	
 
-def main():
+def main() -> None:
 	display_calendar()
 
 

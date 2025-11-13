@@ -4,9 +4,9 @@ import math
 from utils import Input
 
 
-def math_module_details():
+def math_module_details() -> None:
 	"""
-	This program get the details of the math module.
+	This program gets the details of the math module.
 	Author: Gustavo Assi Alencar.
 	Date:   06/11/2025.
 	"""
@@ -25,7 +25,7 @@ def math_module_details():
 		print(f'Couldn\'t find "{user_query}" defined in math module.')
 
 
-def main():
+def main() -> None:
 	math_module_details()
 
 

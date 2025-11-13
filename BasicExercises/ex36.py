@@ -1,9 +1,9 @@
 from utils import Input
 
 
-def add_integers_validator():
+def add_integers_validator() -> None:
 	"""
-	This program add two objects if both objects are integers.
+	This program adds two objects if both objects are integers.
 	Author: Gustavo Assi Alencar.
 	Date:   01/11/2025.
 	"""
@@ -17,7 +17,7 @@ def add_integers_validator():
 		print(f">>> {obj_1} + {obj_2} = {obj_1 + obj_2}")
 
 
-def main():
+def main() -> None:
 	add_integers_validator()
 
 

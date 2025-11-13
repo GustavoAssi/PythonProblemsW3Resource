@@ -11,9 +11,9 @@ def eprint(*args, **kwargs):
 	print(*args, file=sys.stderr, **kwargs)
 
 
-def print_to_STDERR():
+def print_to_STDERR() -> None:
 	"""
-	This program print to STDERR.
+	This program prints to STDERR.
 	Author: Gustavo Assi Alencar.
 	Date:   04/11/2025.
 	"""
@@ -22,7 +22,7 @@ def print_to_STDERR():
 	eprint("abc", "efg", "xyz", sep="--")
 
 
-def main():
+def main() -> None:
 	print_to_STDERR()
 
 

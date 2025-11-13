@@ -2,9 +2,9 @@ from utils import Input
 from math import sqrt
 
 
-def distance_between_points():
+def distance_between_points() -> None:
 	"""
-	This program compute the distance between the points (x1, y1) and (x2, y2).
+	This program computes the distance between the points (x1, y1) and (x2, y2).
 	Author: Gustavo Assi Alencar.
 	Date:   01/11/2025.
 	"""
@@ -21,7 +21,7 @@ def distance_between_points():
 	# Step 3: Display result.
 	print(f">>> distance: {distance}")
 
-def main():
+def main() -> None:
 	distance_between_points()
 
 

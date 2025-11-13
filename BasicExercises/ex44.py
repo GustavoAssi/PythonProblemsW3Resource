@@ -2,9 +2,9 @@ import site
 import pkg_resources
 
 
-def python_site_packages_locator():
+def python_site_packages_locator() -> None:
 	"""
-	This program locate Python site packages.
+	This program locates Python site packages.
 	Author: Gustavo Assi Alencar.
 	Date:   02/11/2025.
 	"""
@@ -23,7 +23,7 @@ def python_site_packages_locator():
 		print(f"{package_name}: {version}")
 
 
-def main():
+def main() -> None:
 	python_site_packages_locator()
 
 

@@ -2,7 +2,7 @@ import datetime
 
 
 
-def current_date_time_display():
+def current_date_time_display() -> None:
 	"""
 	This program displays current date and time.
 	Author: Gustavo Assi Alencar.
@@ -13,7 +13,7 @@ def current_date_time_display():
 	print(f"{current_datetime}")
 	
 
-def main():
+def main() -> None:
 	current_date_time_display()
 
 

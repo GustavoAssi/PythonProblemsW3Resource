@@ -3,9 +3,9 @@ import termios
 import struct
 
 
-def console_dimensions():
+def console_dimensions() -> None:
 	"""
-	This program get the height and width of the console window.
+	This program gets the height and width of the console window.
 	Author: Gustavo Assi Alencar.
 	Date:   04/11/2025.
 	"""
@@ -18,7 +18,7 @@ def console_dimensions():
 	print(f">>> wp: {wp}")
 
 
-def main():
+def main() -> None:
 	console_dimensions()
 
 

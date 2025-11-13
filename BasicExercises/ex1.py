@@ -1,6 +1,6 @@
-def twinkle_poem_output():
+def twinkle_poem_output() -> None:
 	"""
-	Function to output the 'twinkle poem'.
+	This program outputs the 'twinkle poem'.
 	Author: Gustavo Assi Alencar
 	Date:   24/10/2025.
 	"""
@@ -14,7 +14,7 @@ def twinkle_poem_output():
 	print(twinkle_poem)
 
 
-def main():
+def main() -> None:
 	twinkle_poem_output()
 
 

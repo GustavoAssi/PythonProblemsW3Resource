@@ -6,9 +6,9 @@ from pathlib import Path
 from utils import Input
 
 
-def directory_files_lister():
+def directory_files_lister() -> None:
 	"""
-	This program list all files in a directory.
+	This program lists all files in a directory.
 	Author: Gustavo Assi Alencar.
 	Date:   03/11/2025.
 	"""
@@ -24,7 +24,7 @@ def directory_files_lister():
 		subprocess.run(command, cwd=directory)
 
 
-def main():
+def main() -> None:
 	directory_files_lister()
 
 

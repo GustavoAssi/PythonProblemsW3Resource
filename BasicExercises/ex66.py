@@ -1,9 +1,9 @@
 from utils import Input
 
 
-def bmi_calculator():
+def bmi_calculator() -> None:
 	"""
-	This program calculate the body mass index.
+	This program calculates the body mass index.
 	Author: Gustavo Assi Alencar.
 	Date:   05/11/2025.
 	"""
@@ -32,7 +32,7 @@ def bmi_calculator():
 			print("You're obese")
 
 
-def main():
+def main() -> None:
 	bmi_calculator()
 
 

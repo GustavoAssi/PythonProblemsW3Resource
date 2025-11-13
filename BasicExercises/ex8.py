@@ -1,9 +1,9 @@
 from utils import Input
 
 
-def first_and_last_colors():
+def first_and_last_colors() -> None:
 	"""
-	This program display the first and the last color from a list of colors.
+	This program displays the first and the last color from a list of colors.
 	Author: Gustavo Assi Alencar.
 	Date:   26/10/2025.
 	"""
@@ -20,7 +20,7 @@ def first_and_last_colors():
 	print(f">>> Last color: {last}")
 
 
-def main():
+def main() -> None:
 	first_and_last_colors()
 
 

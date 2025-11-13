@@ -1,4 +1,4 @@
-def exam_schedule_formatter():
+def exam_schedule_formatter() -> None:
 	"""
 	This program extracts the date from a variable exam_st_date.
 	Author: Gustavo Assi Alencar.
@@ -17,7 +17,7 @@ def exam_schedule_formatter():
 	print(f"The examination date will start from: {d}/{m}/{y}")
 
 
-def main():
+def main() -> None:
 	exam_schedule_formatter()
 
 

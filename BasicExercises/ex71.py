@@ -2,9 +2,9 @@ import os
 import time
 
 
-def directory_listing_by_creation_date():
+def directory_listing_by_creation_date() -> None:
 	"""
-	This program get a directory listing, sorted by creation date.
+	This program gets a directory listing, sorted by creation date.
 	Author: Gustavo Assi Alencar.
 	Date:   06/11/2025.
 	"""
@@ -18,7 +18,7 @@ def directory_listing_by_creation_date():
 		print(file)
 
 
-def main():
+def main() -> None:
 	directory_listing_by_creation_date()
 
 

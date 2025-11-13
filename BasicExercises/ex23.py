@@ -1,9 +1,9 @@
 from utils import Input
 
 
-def string_prefix_copies():
+def string_prefix_copies() -> None:
 	"""
-	This program get n (non-negative integer) copies of the first 2 characters of a given string.
+	This program gets n (non-negative integer) copies of the first 2 characters of a given string.
 	Author: Gustavo Assi Alencar.
 	Date:   30/10/2025.
 	"""
@@ -17,7 +17,7 @@ def string_prefix_copies():
 	print(f">>> {result}") 
 
 
-def main():
+def main() -> None:
 	string_prefix_copies()
 
 

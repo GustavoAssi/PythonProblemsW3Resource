@@ -2,9 +2,9 @@ import glob
 import os
 
 
-def sort_files_by_date():
+def sort_files_by_date() -> None:
 	"""
-	This program sort files by date.
+	This program sorts files by date.
 	Author: Gustavo Assi Alencar.
 	Date:   05/11/2025.
 	"""
@@ -17,7 +17,7 @@ def sort_files_by_date():
 	print("\n".join(files))
 
 
-def main():
+def main() -> None:
 	sort_files_by_date()
 
 

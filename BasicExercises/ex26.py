@@ -1,9 +1,9 @@
 from utils import Input
 
 
-def list_histogram():
+def list_histogram() -> None:
 	"""
-	This program create a histogram from a given list of integers.
+	This program creates a histogram from a given list of integers.
 	Author: Gustavo Assi Alencar.
 	Date:   31/10/2025.
 	"""
@@ -20,7 +20,7 @@ def list_histogram():
 		print(f"{integer * character}")
 
 
-def main():
+def main() -> None:
 	list_histogram()
 
 

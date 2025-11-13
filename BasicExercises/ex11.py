@@ -1,9 +1,9 @@
 from utils import Input
 
 
-def function_documentation_printer():
+def function_documentation_printer() -> None:
 	"""
-	This program display any function documentation, since the function is Python built-in.
+	This program displays any function documentation, since the function is Python built-in.
 	Author: Gustavo Assi Alencar.
 	Date:   27/10/2025.
 	"""
@@ -22,7 +22,7 @@ def function_documentation_printer():
 		function_name = input('Type the function name (press "q" to exit): ')
 
 
-def main():
+def main() -> None:
 	function_documentation_printer()
 
 

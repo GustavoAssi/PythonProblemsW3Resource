@@ -1,6 +1,6 @@
-def print_here_document():
+def print_here_document() -> None:
 	"""
-	This program print the follwing here document.
+	This program prints the follwing here document.
 	Author: Gustavo Assi Alencar.
 	Date:   27/10/2025.
 	"""
@@ -13,7 +13,7 @@ def print_here_document():
 	""")
 
 
-def main():
+def main() -> None:
 	print_here_document()
 
 

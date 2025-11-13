@@ -4,9 +4,9 @@ from pathlib import Path
 from utils import Input
 
 
-def file_existence_checker():
+def file_existence_checker() -> None:
 	"""
-	This program check whether a file exists.
+	This program checks whether a file exists.
 	Author: Gustavo Assi Alencar.
 	Date:   02/11/2025.
 	"""
@@ -24,7 +24,7 @@ def file_existence_checker():
 		print(f"Couldn't find file in: {file_path}")
 
 
-def main():
+def main() -> None:
 	file_existence_checker()
 
 

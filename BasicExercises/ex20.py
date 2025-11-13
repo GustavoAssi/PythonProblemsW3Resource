@@ -1,9 +1,9 @@
 from utils import Input
 
 
-def string_copy_generator():
+def string_copy_generator() -> None:
 	"""
-	Write a Python program that returns a string that is n copies of a given string.
+	This program displays a string that is n copies of a given string.
 	Author: Gustavo Assi Alencar.
 	Date:   28/10/2025.
 	"""
@@ -16,7 +16,7 @@ def string_copy_generator():
 	print(f"{copies * string}")
 
 
-def main():
+def main() -> None:
 	string_copy_generator()
 
 

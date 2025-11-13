@@ -1,9 +1,9 @@
 from utils import Input
 
 
-def vowel_tester():
+def vowel_tester() -> None:
 	"""
-	This program test wheter a passed letter is a vowel or not.
+	This program tests wheter a passed letter is a vowel or not.
 	Author: Gustavo Assi Alencar.
 	Date:   30/10/2025.
 	"""
@@ -23,7 +23,7 @@ def vowel_tester():
 
 
 
-def main():
+def main() -> None:
 	vowel_tester()
 
 

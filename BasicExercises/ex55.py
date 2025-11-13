@@ -1,9 +1,9 @@
 import socket
 
 
-def find_local_IPs():
+def find_local_IPs() -> None:
 	"""
-	This program find local IP addresses using Python's stdlib.
+	This program finds local IP addresses using Python's stdlib.
 	Author: Gustavo Assi Alencar.
 	Date:   04/11/2025.
 	"""
@@ -24,7 +24,7 @@ def find_local_IPs():
 	print(first_ip)
 
 
-def main():
+def main() -> None:
 	find_local_IPs()
 
 

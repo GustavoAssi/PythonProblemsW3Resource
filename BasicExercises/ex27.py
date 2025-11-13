@@ -1,9 +1,9 @@
 from utils import Input
 
 
-def list_to_string_concatenator():
+def list_to_string_concatenator() -> None:
 	"""
-	This program that concatenates all elements in a list into a string and returns it.
+	This program concatenates all elements in a list into a string and returns it.
 	Author: Gustavo Assi Alencar.
 	Date:   31/10/2025.
 	"""
@@ -24,7 +24,7 @@ def list_to_string_concatenator():
 	print(f">>> Concatenated string: {output_string}")
 
 
-def main():
+def main() -> None:
 	list_to_string_concatenator()
 
 

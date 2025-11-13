@@ -2,9 +2,9 @@ from utils import Input
 from math import hypot
 
 
-def triangle_hypotenuse_calculator():
+def triangle_hypotenuse_calculator() -> None:
 	"""
-	This program calculate the hypotenuse of a right angled triangle
+	This program calculates the hypotenuse of a right angled triangle
 	Author: Gustavo Assi Alencar.
 	Date:   04/11/2025.
 	"""
@@ -20,7 +20,7 @@ def triangle_hypotenuse_calculator():
 	print(f">>> hypotenuse: {hypotenuse:.3f}")
 
 
-def main():
+def main() -> None:
 	triangle_hypotenuse_calculator()
 
 

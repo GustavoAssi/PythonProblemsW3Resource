@@ -1,9 +1,9 @@
 from utils import Input
 
 
-def list_and_tuple_generator():
+def list_and_tuple_generator() -> None:
 	"""
-	This function take a sequence of comma-separeted values and creates a list and tuple.
+	This program takes a sequence of comma-separeted values and creates a list and tuple.
 	Author: Gustavo Assi Alencar.
 	Date:   26/10/2025.
 	"""
@@ -20,7 +20,7 @@ def list_and_tuple_generator():
 	print(f"Tuple: {values_tuple}")
 
 
-def main():
+def main() -> None:
 	list_and_tuple_generator()
 
 

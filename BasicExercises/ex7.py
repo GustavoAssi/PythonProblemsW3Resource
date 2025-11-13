@@ -1,9 +1,9 @@
 from utils import Input
 
 
-def file_extension_extractor():
+def file_extension_extractor() -> None:
 	"""
-	This program display the extension from a file.
+	This program displays the extension from a file.
 	Author: Gustavo Assi Alencar.
 	Date:   26/10/2025.
 	"""
@@ -28,7 +28,7 @@ def file_extension_extractor():
 		print("File has more than 1 dot!")
 
 
-def main():
+def main() -> None:
 	file_extension_extractor()
 
 

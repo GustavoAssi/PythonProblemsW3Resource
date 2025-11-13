@@ -1,9 +1,9 @@
 import sys
 
 
-def current_recursion_limit():
+def current_recursion_limit() -> None:
 	"""
-	This program current value of the recursion limit.
+	This program gets current value of the recursion limit.
 	Author: Gustavo Assi Alencar.
 	Date:   08/11/2025.
 	"""
@@ -12,7 +12,7 @@ def current_recursion_limit():
 	print(f">>> Recursion limit value: {sys.getrecursionlimit()}")
 
 
-def main():
+def main() -> None:
 	current_recursion_limit()
 
 

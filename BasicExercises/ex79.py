@@ -1,9 +1,9 @@
 from sys import getsizeof
 
 
-def object_size_finder():
+def object_size_finder() -> None:
 	"""
-	This program get the size of an object in bytes.
+	This program gets the size of an object in bytes.
 	Author: Gustavo Assi Alencar.
 	Date:   08/11/2025.
 	"""
@@ -20,7 +20,7 @@ def object_size_finder():
 		print(f">>> {object}: {getsizeof(object)} bytes")
 
 
-def main():
+def main() -> None:
 	object_size_finder()
 
 

@@ -1,7 +1,7 @@
 from utils import Input
 
 
-def personal_info_formatter():
+def personal_info_formatter() -> None:
 	"""
 	This program displays your name, age, and address on three different lines.
 	Author: Gustavo Assi Alencar.
@@ -19,7 +19,7 @@ def personal_info_formatter():
 	print(f">>> address: {address}")
 
 
-def main():
+def main() -> None:
 	personal_info_formatter()
 
 

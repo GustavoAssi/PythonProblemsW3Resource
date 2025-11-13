@@ -1,9 +1,9 @@
 from utils import Input
 
 
-def word_hasher():
+def word_hasher() -> None:
 	"""
-	This program hash a word.
+	This program hashes a word.
 	Author: Gustavo Assi Alencar.
 	Date:   06/11/2025.
 	"""
@@ -24,7 +24,7 @@ def word_hasher():
 	print(f">>> Hashed word: {hashed_word}")
 
 
-def main():
+def main() -> None:
 	word_hasher()
 
 

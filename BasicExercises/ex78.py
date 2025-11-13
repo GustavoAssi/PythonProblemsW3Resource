@@ -1,9 +1,9 @@
 import sys
 
 
-def list_built_in_modules():
+def list_built_in_modules() -> None:
 	"""
-	This program find the available built-in modules.
+	This program finds the available built-in modules.
 	Author: Gustavo Assi Alencar.
 	Date:   08/11/2025.
 	"""
@@ -16,7 +16,7 @@ def list_built_in_modules():
 		print(f">>> {module}")
 
 
-def main():
+def main() -> None:
 	list_built_in_modules()
 
 

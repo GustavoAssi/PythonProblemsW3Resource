@@ -1,9 +1,9 @@
 from utils import Input
 
 
-def count_four_in_list():
+def count_four_in_list() -> None:
 	"""
-	This program count the number 4 in a given numeric list.
+	This program counts the number "4" in a given numeric list.
 	Author: Gustavo Assi Alencar.
 	Date:   30/10/2025.
 	"""
@@ -34,7 +34,7 @@ def count_four_in_list():
 		print("User didn't input a numeric list!")
 
 
-def main():
+def main() -> None:
 	count_four_in_list()
 
 

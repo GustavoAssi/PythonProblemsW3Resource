@@ -1,9 +1,9 @@
 from utils import Input
 
 
-def least_common_multiple():
+def least_common_multiple() -> None:
 	"""
-	This program least common multiple of two positive integers.
+	This program computes least common multiple of two positive integers.
 	Author: Gustavo Assi Alencar.
 	Date:   31/10/2025.
 	"""
@@ -22,7 +22,7 @@ def least_common_multiple():
 	print(f"{abs(p) / b}")
 
 
-def main():
+def main() -> None:
 	least_common_multiple()
 
 

@@ -1,9 +1,9 @@
 from utils import Input
 
 
-def feet_to_other_units():
+def feet_to_other_units() -> None:
 	"""
-	This program convert the distance (in feet) to inches, yards, and miles.
+	This program converts the distance (in feet) to inches, yards, and miles.
 	Author: Gustavo Assi Alencar.
 	Date:   04/11/2025.
 	"""
@@ -22,7 +22,7 @@ def feet_to_other_units():
 	print(f">>> {distance_in_feet:.3f} feet = {distance_in_miles:.4f} miles")
 
 
-def main():
+def main() -> None:
 	feet_to_other_units()
 
 

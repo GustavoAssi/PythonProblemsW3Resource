@@ -14,10 +14,10 @@ def has_three_equal_values(n1: int, n2: int, n3: int) -> bool:
 	return n1 == n2 or n2 == n3 or n1 == n3
 
 
-def triple_sum_with_equality():
+def triple_sum_with_equality() -> None:
 	"""
-	This program sum three given integers. However. 
-	If two values are equal, the sum will be zero.
+	This program sum three given integers. 
+	However: if two values are equal, the sum will be zero.
 	Author: Gustavo Assi Alencar.
 	Date:   31/10/2025.
 	"""
@@ -37,7 +37,7 @@ def triple_sum_with_equality():
 	print(f">>> {sum}")
 
 
-def main():
+def main() -> None:
 	triple_sum_with_equality()
 
 

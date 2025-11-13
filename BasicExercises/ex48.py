@@ -23,9 +23,9 @@ def can_be_float_number(numeric_string: str) -> bool:
 	return any([digit in ",." for digit in numeric_string])
 
 
-def string_to_numeric_parser():
+def string_to_numeric_parser() -> None:
 	"""
-	This program parse a string to float or integer.
+	This program parses a string to float or integer.
 	Author: Gustavo Assi Alencar.
 	Date:   03/11/2025.
 	"""
@@ -44,7 +44,7 @@ def string_to_numeric_parser():
 		print(f">>> User typed a non numeric string.")
 
 
-def main():
+def main() -> None:
 	string_to_numeric_parser()
 
 

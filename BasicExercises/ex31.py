@@ -1,7 +1,7 @@
 from utils import Input
 
 
-def greatest_common_divisor():
+def greatest_common_divisor() -> None:
 	"""
 	This program computes the greatest common divisor of two positive integers.
 	Author: Gustavo Assi Alencar.
@@ -23,7 +23,7 @@ def greatest_common_divisor():
 	print(b)
 
 	
-def main():
+def main() -> None:
 	greatest_common_divisor()
 
 

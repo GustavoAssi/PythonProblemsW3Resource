@@ -1,9 +1,9 @@
 from utils import Input
 
 
-def sort_three_numbers():
+def sort_three_numbers() -> None:
 	"""
-	This program sort three integers without using conditional statements and loops.
+	This program sorts three integers without using conditional statements and loops.
 	Author: Gustavo Assi Alencar.
 	Date:   05/11/2025.
 	"""
@@ -22,7 +22,7 @@ def sort_three_numbers():
 	print(f">>> Sorted numbers: ", a1, a2, a3)
 	
 
-def main():
+def main() -> None:
 	sort_three_numbers()
 
 

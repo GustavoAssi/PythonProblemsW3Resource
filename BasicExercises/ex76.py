@@ -1,9 +1,9 @@
 import sys
 
 
-def command_line_arguments():
+def command_line_arguments() -> None:
 	"""
-	This program get the command-line arguments (name of the script, the number of arguments, arguments) passed to a script.
+	This program gets the command-line arguments (name of the script, the number of arguments, arguments) passed to a script.
 	Author: Gustavo Assi Alencar.
 	Date:   08/11/2025.
 	"""
@@ -18,7 +18,7 @@ def command_line_arguments():
 	print(f">>> Arguments list: {sys.argv}")
 
 
-def main():
+def main() -> None:
 	command_line_arguments()
 
 

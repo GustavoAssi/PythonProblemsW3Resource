@@ -1,9 +1,9 @@
 from utils import Input
 
 
-def future_value_calculator():
+def future_value_calculator() -> None:
 	"""
-	This program compute the future value of a specified principal amount, rate of interest, and number of years.
+	This program computes the future value of a specified principal amount, rate of interest, and number of years.
 	Author: Gustavo Assi Alencar.
 	Date:   01/11/2025.
 	"""
@@ -22,7 +22,7 @@ def future_value_calculator():
 	print(f">>> Future Compound Simple Interest: R$ {future_value_compound_interest:.3f}")
 
 
-def main():
+def main() -> None:
 	future_value_calculator()
 
 

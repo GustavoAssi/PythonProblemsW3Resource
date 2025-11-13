@@ -1,10 +1,10 @@
 from utils import Input
 
 
-def conditional_sum_to_20():
+def conditional_sum_to_20() -> None:
 	"""
-	This program to calculate sum two given integers. 
-	However, if the sum is between 15 and 20 it will return 20.
+	This program calculates sum two given integers. 
+	However: if the sum is between 15 and 20 it will return 20.
 	Author: Gustavo Assi Alencar.
 	Date:   31/10/2025.
 	"""
@@ -20,7 +20,7 @@ def conditional_sum_to_20():
 	print(f">>> {sum}")
 
 
-def main():
+def main() -> None:
 	conditional_sum_to_20()
 
 

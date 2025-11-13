@@ -1,9 +1,9 @@
 from utils import Input
 
 
-def expression_solver():
+def expression_solver() -> None:
 	"""
-	This program solve (x + y) * (x + y) given x and y values.
+	This program solves (x + y) * (x + y) given x and y values.
 	Author: Gustavo Assi Alencar.
 	Date:   01/11/2025.
 	"""
@@ -19,7 +19,7 @@ def expression_solver():
 	print(f"({x} + {y})² = {expression}")
 
 
-def main():
+def main() -> None:
 	expression_solver()
 
 

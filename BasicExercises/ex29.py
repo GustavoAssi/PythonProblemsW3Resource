@@ -1,7 +1,7 @@
 from utils import Input
 
 
-def unique_colors_finder():
+def unique_colors_finder() -> None:
 	"""
 	This program prints out all colors from color_list_1 that are not present in color_list_2.
 	Author: Gustavo Assi Alencar.
@@ -21,7 +21,7 @@ def unique_colors_finder():
 	print(f">>> {diff}")
 
 
-def main():
+def main() -> None:
 	unique_colors_finder()
 
 

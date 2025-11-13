@@ -1,9 +1,9 @@
 from utils import Input
 
 
-def number_expansion_calculator():
+def number_expansion_calculator() -> None:
 	"""
-	This program recieve an integer number (n) and display the value of n + n² + n³.
+	This program recieves an integer number (n) and display the value of n + n² + n³.
 	Author: Gustavo Assi Alencar.
 	Date:   27/10/2025. 
 	"""
@@ -18,7 +18,7 @@ def number_expansion_calculator():
 	print(f"Result: {result}")
 
 
-def main():
+def main() -> None:
 	number_expansion_calculator()
 
 

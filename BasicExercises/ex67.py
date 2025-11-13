@@ -1,9 +1,9 @@
 from utils import Input
 
 
-def pressure_unit_converter():
+def pressure_unit_converter() -> None:
 	"""
-	This program convert pressure in kilopascals to: 
+	This program converts pressure in kilopascals to: 
 		* pounds per square inch; 
 		* a millimeter of mercury (mmHg); 
 		* atmosphere pressure.
@@ -25,7 +25,7 @@ def pressure_unit_converter():
 	print(f">>> {kilopascals_pressure} kPa = {atmosphere_pressure:.3f} atm")
 
 
-def main():
+def main() -> None:
 	pressure_unit_converter()
 
 

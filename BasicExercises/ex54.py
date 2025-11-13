@@ -2,16 +2,16 @@ import os
 import pwd
 
 
-def get_username():
+def get_username() -> str:
 	"""
 	Returns username using pwd and os modules.
 	"""
 	return pwd.getpwuid(os.geteuid())[0]
 
 
-def get_current_username():
+def get_current_username() -> None:
 	"""
-	This program get the current username.
+	This program gets the current username.
 	Author: Gustavo Assi Alencar.
 	Date:   04/11/2025.
 	"""
@@ -23,7 +23,7 @@ def get_current_username():
 	print(f">>> user: {user}")
 
 
-def main():
+def main() -> None:
 	get_current_username()
 
 

@@ -1,9 +1,9 @@
 from utils import Input
 
 
-def sum_of_first_positives():
+def sum_of_first_positives() -> None:
 	"""
-	This program sum the first n positive integers.
+	This program sums the first n positive integers.
 	Author: Gustavo Assi Alencar.
 	Date:   04/11/2025.
 	"""
@@ -20,7 +20,7 @@ def sum_of_first_positives():
 	print(f">>> Sum of first {n} positive integers: {s}")
 	
 
-def main():
+def main() -> None:
 	sum_of_first_positives()
 
 

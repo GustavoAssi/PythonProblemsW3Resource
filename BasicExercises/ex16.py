@@ -1,7 +1,7 @@
 from utils import Input
 
 
-def difference_from_17():
+def difference_from_17() -> None:
 	"""
 	This program calculates difference between a given number from 17.
 	If the number is greater than 17, display twice the absolute difference.
@@ -19,7 +19,7 @@ def difference_from_17():
 	print(f">>> Result: {result}")
 
 
-def main():
+def main() -> None:
 	difference_from_17()
 
 

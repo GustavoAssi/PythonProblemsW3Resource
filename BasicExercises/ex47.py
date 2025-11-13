@@ -1,9 +1,9 @@
 import multiprocessing
 
 
-def cpu_count_finder():
+def cpu_count_finder() -> None:
 	"""
-	This program find out the number of CPUs used.
+	This program finds out the number of CPUs used.
 	Author: Gustavo Assi Alencar.
 	Date:   03/11/2025.
 	"""
@@ -15,7 +15,7 @@ def cpu_count_finder():
 	print(f">>> CPU count: {cpu_count}")
 
 
-def main():
+def main() -> None:
 	cpu_count_finder()
 
 

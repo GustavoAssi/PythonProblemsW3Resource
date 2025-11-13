@@ -1,9 +1,9 @@
 from utils import Input
 
 
-def even_numbers_until_237():
+def even_numbers_until_237() -> None:
 	"""
-	This program print all even numbers until 237 from a given list of numbers.
+	This program prints all even numbers until 237 from a given list of numbers.
 	Author: Gustavo Assi Alencar.
 	Date:   31/10/2025.
 	"""
@@ -24,7 +24,7 @@ def even_numbers_until_237():
 			print(number)
 			break
 
-def main():
+def main() -> None:
 	even_numbers_until_237()
 
 

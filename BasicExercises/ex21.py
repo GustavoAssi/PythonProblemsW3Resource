@@ -1,7 +1,7 @@
 from utils import Input
 
 
-def even_odd_checker():
+def even_odd_checker() -> None:
 	"""
 	This program determines whether a given number is even or odd.
 	Author: Gustavo Assi Alencar.
@@ -18,7 +18,7 @@ def even_odd_checker():
 		print("Number is odd")
 
 
-def main():
+def main() -> None:
 	even_odd_checker()
 
 

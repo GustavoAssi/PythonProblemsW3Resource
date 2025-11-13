@@ -14,9 +14,9 @@ def sum_of_integers(a: int, b: int) -> int:
 	return a + b
 
 
-def program_profiler():
+def program_profiler() -> None:
 	"""
-	This program determine the profiling of Python programs.
+	This program determines the profiling of Python programs.
 	Author: Gustavo Assi Alencar.
 	Date:   04/11/2025.
 	"""
@@ -32,7 +32,7 @@ def program_profiler():
 	print(f">>> {a} + {b} = {result}")
 
 
-def main():
+def main() -> None:
 	# Main: Execute the program using cProfile module.
 	cProfile.run('program_profiler()')
 

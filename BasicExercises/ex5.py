@@ -1,9 +1,9 @@
 from utils import Input
 
 
-def reverse_full_name():
+def reverse_full_name() -> None:
 	"""
-	This function get the first and last name from user and display it in reverse order.
+	This program gets the first and last name from user and display it in reverse order.
 	Author: Gustavo Assi Alencar.
 	Date:   26/10/2025.
 	"""
@@ -21,7 +21,7 @@ def reverse_full_name():
 		print("User should input just first and last name!")
 
 
-def main():
+def main() -> None:
 	reverse_full_name()
 
 

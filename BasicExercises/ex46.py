@@ -1,9 +1,9 @@
 import os
 
 
-def file_path_and_name_finder():
+def file_path_and_name_finder() -> None:
 	"""
-	This program retrieve the path and name of the file currently being executed.
+	This program retrieves the path and name of the file currently being executed.
 	Author: Gustavo Assi Alencar.
 	Date:   03/11/2025.
 	"""
@@ -17,7 +17,7 @@ def file_path_and_name_finder():
 	print(f">>> current file path: {current_file_path}")
 
 
-def main():
+def main() -> None:
 	file_path_and_name_finder()
 
 

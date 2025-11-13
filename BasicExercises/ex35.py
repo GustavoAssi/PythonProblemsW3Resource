@@ -1,9 +1,9 @@
 from utils import Input
 
 
-def equality_five_checker():
+def equality_five_checker() -> None:
 	"""
-	This program returns true if the two given integer values are equal or their sum or difference is 5.
+	This program displays true if the two given integer values are equal or their sum or difference is 5.
 	Author: Gustavo Assi Alencar.
 	Date:   31/10/2025.
 	"""
@@ -19,7 +19,7 @@ def equality_five_checker():
 		print(">>> FALSE")
 
 
-def main():
+def main() -> None:
 	equality_five_checker()
 
 

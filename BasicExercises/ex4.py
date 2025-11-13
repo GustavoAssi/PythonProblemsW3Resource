@@ -2,7 +2,7 @@ from math import pi
 from utils import Input
 
 
-def circle_area():
+def circle_area() -> None:
 	"""
 	This program computes a circle area given a radius.
 	Author: Gustavo Assi Alencar.
@@ -19,7 +19,7 @@ def circle_area():
 	print("circle area with radius", radius, "circle area", circle_area)
 
 
-def main():
+def main() -> None:
 	circle_area()
 
 

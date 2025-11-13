@@ -1,9 +1,9 @@
 from utils import Input
 
 
-def line_midpoint_calculator():
+def line_midpoint_calculator() -> None:
 	"""
-	This program calculate the midpoints of a line.
+	This program calculates the midpoints of a line.
 	Author: Gustavo Assi Alencar.
 	Date:   06/11/2025.
 	"""
@@ -20,7 +20,7 @@ def line_midpoint_calculator():
 	print(f">>> Midpoint between ({x1}, {y1}) and ({x2}, {y2}) is ({x_mid}, {y_mid})")
 
 
-def main():
+def main() -> None:
 	line_midpoint_calculator()
 
 

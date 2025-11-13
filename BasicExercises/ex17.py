@@ -1,9 +1,9 @@
 from utils import Input
 
 
-def number_range_tester():
+def number_range_tester()-> None:
 	"""
-	This program test whether a number is within 100 of 1000 or 2000.
+	This program tests whether a number is within 100 of 1000 or 2000.
 	Author: Gustavo Assi Alencar.
 	Date:   28/10/2025.
 	"""
@@ -18,7 +18,7 @@ def number_range_tester():
 		print("Number is not within 100 of 1000 or 2000.")
 
 
-def main():
+def main() -> None:
 	number_range_tester()
 
 

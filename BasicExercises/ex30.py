@@ -1,9 +1,9 @@
 from utils import Input
 
 
-def triangle_area():
+def triangle_area()-> None:
 	"""
-	This program will accept the base and height of a triangle and compute its area.
+	This program accepts the base and height of a triangle and compute its area.
 	Author: Gustavo Assi Alencar.
 	Date:   31/10/2025."
 	"""
@@ -19,7 +19,7 @@ def triangle_area():
 	print(f">>> area: {area}")
 
 
-def main():
+def main() -> None:
 	triangle_area()
 
 

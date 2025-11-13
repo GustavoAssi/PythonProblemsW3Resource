@@ -1,7 +1,7 @@
 import os
 
 
-def access_enviroment_variables():
+def access_enviroment_variables() -> None:
 	"""
 	This program access environment variables.
 	Author: Gustavo Assi Alencar.
@@ -22,7 +22,7 @@ def access_enviroment_variables():
 		print("-" * 50)
 
 
-def main():
+def main() -> None:
 	access_enviroment_variables()
 
 

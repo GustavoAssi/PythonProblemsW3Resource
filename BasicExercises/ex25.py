@@ -1,7 +1,7 @@
 from utils import Input
 
 
-def value_in_group_tester():
+def value_in_group_tester() -> None:
 	"""
 	This program checks whether a specific value is contained within a group of values.
 	Author: Gustavo Assi Alencar.
@@ -22,7 +22,7 @@ def value_in_group_tester():
 		print("Value isn't from the group!")
 
 
-def main():
+def main() -> None:
 	value_in_group_tester()
 
 

@@ -1,9 +1,9 @@
 from utils import Input
 
 
-def sum_of_digits():
+def sum_of_digits() -> None:
 	"""
-	This program calculate sum of digits of a number
+	This program calculates sum of digits of a number
 	Author: Gustavo Assi Alencar.
 	Date:   05/11/2025.
 	"""
@@ -18,7 +18,7 @@ def sum_of_digits():
 	print(f">>> The sum of digits from inputed number: {sum_of_digits}")
 
 
-def main():
+def main() -> None:
 	sum_of_digits()
 
 

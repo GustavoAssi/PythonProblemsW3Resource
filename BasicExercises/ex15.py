@@ -2,7 +2,7 @@ from math import pi
 from utils import Input
 
 
-def sphere_volume():
+def sphere_volume() -> None:
 	"""
 	This program calculates the volume from a sphere given the sphere radius.
 	Author: Gustavo Assi Alencar.
@@ -19,7 +19,7 @@ def sphere_volume():
 	print(f">>> Sphere volume: {sphere_volume:.3f}")
 
 
-def main():
+def main() -> None:
 	sphere_volume()
 
 

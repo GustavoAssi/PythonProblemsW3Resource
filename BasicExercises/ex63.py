@@ -3,7 +3,7 @@ import os
 from utils import Input
 
 
-def absolute_file_path_finder():
+def absolute_file_path_finder() -> None:
 	"""
 	This program gets an absolute file path.
 	Author: Gustavo Assi Alencar.
@@ -23,7 +23,7 @@ def absolute_file_path_finder():
 		print(">>> File does not exist.")
 
 
-def main():
+def main() -> None:
 	absolute_file_path_finder()
 
 

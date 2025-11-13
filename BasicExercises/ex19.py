@@ -1,7 +1,7 @@
 from utils import Input
 
 
-def prefix_is_string_modifier():
+def prefix_is_string_modifier() -> None:
 	"""
 	This program changes a string adding the prefix "Is" in the beginning of the string.
 	Author: Gustavo Assi Alencar.
@@ -20,7 +20,7 @@ def prefix_is_string_modifier():
 
 
 
-def main():
+def main() -> None:
 	prefix_is_string_modifier()
 
 

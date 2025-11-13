@@ -6,9 +6,9 @@ def sum(a: int, b: int) -> int:
 	return a + b
 
 
-def method_execution_time():
+def method_execution_time() -> None:
 	"""
-	This program get the execution time of a Python method
+	This program gets the execution time of a Python method
 	Author: Gustavo Assi Alencar.
 	Date:   04/11/2025.
 	"""
@@ -30,7 +30,7 @@ def method_execution_time():
 	print(f">>> execution time: {execution_time:.3f} s")
 
 
-def main():
+def main() -> None:
 	method_execution_time()
 
 
