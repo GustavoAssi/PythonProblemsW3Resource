@@ -59,11 +59,11 @@ def sum_of_container_items() -> None:
 	Date:   08/11/2025.
 	"""
 
-	# Step 1: insert a iterable.
+	# Step 1: Insert an iterable.
 	iterable = Input.get_string("Type an iterable (tuple, list, set, dictionary): ", stripped=True)
 
 	try: 
-		# Step 2: Try get iterable type.
+		# Step 2: Try to get iterable type.
 		result = {}
 		exec(f"iterable_value = {iterable}", {}, result)
 		iterable_value = result["iterable_value"]

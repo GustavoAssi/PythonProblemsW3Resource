@@ -15,8 +15,8 @@ def reverse_full_name() -> None:
 	# Step 2: Show the name in reverse order.
 	if len(full_name_list) == 2:
 		first_name, last_name = full_name_list[0], full_name_list[1]
-		reverse_full_name = last_name + " " + first_name
-		print(f">>> {reverse_full_name}")
+		reverse_name = last_name + " " + first_name
+		print(f">>> {reverse_name}")
 	else:
 		print("User should input just first and last name!")
 
