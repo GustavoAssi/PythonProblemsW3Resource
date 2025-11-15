@@ -1,7 +1,7 @@
 import subprocess
 
 
-def system_command_output():
+def system_command_output() -> None:
     """
     This program gets system command outputs.
     Author: Gustavo Assi Alencar.
@@ -12,7 +12,7 @@ def system_command_output():
     returned_text = subprocess.check_output("dir", shell=True, universal_newlines=True)
     print(returned_text)
 
-def main():
+def main() -> None:
     system_command_output()
 
 

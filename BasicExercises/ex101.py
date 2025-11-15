@@ -2,7 +2,7 @@ from http.client import HTTPConnection
 from utils import Input
 
 
-def url_content_printer():
+def url_content_printer() -> None:
     """
     This program access and prints a URL's content to the console.
     Author: Gustavo Assi Alencar.
@@ -32,7 +32,7 @@ def url_content_printer():
         print(f">>> Error: {e}")
 
 
-def main():
+def main() -> None:
     url_content_printer()
 
 

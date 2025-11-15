@@ -1,7 +1,7 @@
 import os
 
 
-def process_group_and_user_ids():
+def process_group_and_user_ids() -> None:
     """
     This program gets the effective group id, effective user id, real group id and list of supplemental group ids.
     All of them associated with the current process.
@@ -23,7 +23,7 @@ def process_group_and_user_ids():
 
 
 
-def main():
+def main() -> None:
     process_group_and_user_ids()
 
 

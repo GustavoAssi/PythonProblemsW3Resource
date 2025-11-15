@@ -2,7 +2,7 @@ import os
 from utils import Input
 
 
-def extract_file_name():
+def extract_file_name() -> None:
     """
     This program extracts the filename from a given path.
     Author: Gustavo Assi Alencar.
@@ -22,7 +22,7 @@ def extract_file_name():
     else:
         print(f"File: {file_path} does not exist!")
 
-def main():
+def main() -> None:
     extract_file_name()
 
 

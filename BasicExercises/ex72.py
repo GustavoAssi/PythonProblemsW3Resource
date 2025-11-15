@@ -14,8 +14,8 @@ def math_module_details() -> None:
 	# Step 1: Display math module functions attributes (object).
 	print("All math functions and atributes.")
 	math_module_objects = dir(math)
-	for object in math_module_objects:
-		print(f">>> {object}")
+	for obj in math_module_objects:
+		print(f">>> {obj}")
 
 	# Step 2: Ask for user to use help from one of the given objects list.
 	user_query = Input.get_string("Type an object to get more informations: ", stripped=True)

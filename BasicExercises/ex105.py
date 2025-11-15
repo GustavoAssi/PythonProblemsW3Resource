@@ -1,7 +1,7 @@
 import os
 
 
-def user_enviroment_retriever():
+def user_enviroment_retriever() -> None:
     """
     This program gets user enviroemnt.
     Author: Gustavo Assi Alencar.
@@ -13,7 +13,7 @@ def user_enviroment_retriever():
         print(f">>> {k} : {v}")
 
 
-def main():
+def main() -> None:
     user_enviroment_retriever()
 
 
