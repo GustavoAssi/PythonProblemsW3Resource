@@ -1,3 +1,6 @@
+from typing import Literal
+
+
 class Input:
 
     @staticmethod
@@ -70,3 +73,26 @@ class Input:
                 return float_number
             except ValueError as e:
                 print(f"Couldn't get the float number -> {e}")
+
+
+    @staticmethod
+    def get_list(message: str = "Input a list: ", elements_type: Literal["int", "float", "str"] = "str") -> list:
+        """
+        This method is used to get a list of elements from same type.
+
+        :param message:            (str) a message displayed on terminal for the user.
+        :param elements_type:      (str) the type of elements: int, float or string.
+        :return:                   (list) the list of elements from same type.
+        """
+        while True:
+            try:
+                list_from_user = Input.get_string(message, stripped=True).split(",")
+                list_from_user = [value.strip() for value in list_from_user]
+                if elements_type == "int":
+                    list_from_user = [int(value) for value in list_from_user]
+                elif elements_type == "float":
+                    list_from_user = [float(value) for value in list_from_user]
+
+                return list_from_user
+            except ValueError as e:
+                print(f"Couldn't get the list of {elements_type} elements -> {e}")
