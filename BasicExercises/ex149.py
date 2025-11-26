@@ -19,6 +19,7 @@ def cube_sum_of_smaller_integers() -> None:
     else:
         print(f">>> Enter a value greater then 2, please.")
 
+
 def main():
     cube_sum_of_smaller_integers()
 

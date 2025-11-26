@@ -20,6 +20,7 @@ def odd_product_pair_checker() -> None:
             if product % 2 != 0:
                 print(f">>> {numbers[i]} x {numbers[j]} = {product}")
 
+
 def main():
     odd_product_pair_checker()
 
