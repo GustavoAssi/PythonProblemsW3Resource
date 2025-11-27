@@ -1,5 +1,5 @@
 import sys
-
+from pathlib import Path
 
 def create_python_file(file_name, template) -> None:
     with open(file_name, "w") as fn, open(template, "r") as t:
@@ -23,7 +23,7 @@ def main():
 
         for file_index in range(first_index, last_index + 1):
             file_name = f"ex{file_index}.py"
-            template = "ex_template.txt"
+            template = Path(__file__).parent / "ex_template.txt"
             create_python_file(file_name, template)
 
     else:
