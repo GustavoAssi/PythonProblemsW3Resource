@@ -6,7 +6,7 @@ def p() -> None:
     """
 
 
-def main():
+def main() -> None:
     ...
 
 
